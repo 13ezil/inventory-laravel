@@ -102,14 +102,14 @@
             <li @if ($pageSlug == 'clients') class="active " @endif>
                 <a href="{{ route('clients.index') }}">
                     <i class="tim-icons icon-single-02"></i>
-                    <p>Clients</p>
+                    <p>Buyers</p>
                 </a>
             </li>
 
             <li @if ($pageSlug == 'providers') class="active " @endif>
                 <a href="{{ route('providers.index') }}">
                     <i class="tim-icons icon-delivery-fast"></i>
-                    <p>Providers</p>
+                    <p>Suppliers</p>
                 </a>
             </li>
 
